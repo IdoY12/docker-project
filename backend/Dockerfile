@@ -22,4 +22,4 @@ RUN rm -rf ./src
 # what runs when the image is loaded by docker into a container
 CMD ["npm", "start"]
 
-# docker run --name weezer-backend -d -e NODE_ENV=docker  -p 3010:3000 idoyahav/weezer-backend:3.0.0
+# docker run --name weezer-backend -d -e NODE_ENV=docker  -p 3010:3000 idoyahav/weezer-backend:4.0.0
